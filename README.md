@@ -1,1 +1,1 @@
-# mini_repositorio
+# Proyecto con estudiantes
