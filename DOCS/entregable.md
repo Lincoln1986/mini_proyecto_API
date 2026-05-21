@@ -1,18 +1,18 @@
 # Imagenes comprobación de resultados
-![Texto Alternativo](imagen.png)
-![Texto Alternativo](imagen2.png)
-![Texto Alternativo](imagen3.png)
-![Texto Alternativo](imagen4.png)
+![Texto Alternativo](PNG/imagen.png)
+![Texto Alternativo](PNG/imagen2.png)
+![Texto Alternativo](PNG/imagen3.png)
+![Texto Alternativo](PNG/imagen4.png)
 # Evidencias solicitadas
 ## 1. Endpoint: GET /students/{id}
-![Pantallazo](imagen7.png)
+![Pantallazo](PNG/imagen5.png)
 ## 2. Endpoint: POST /students
-![Pantallazo](imagen8.png)
+![Pantallazo](PNG/imagen6.png)
 ## 3. Endpoint: GET /students?active=true
 ### TRUE
-![Pantallazo](imagen9.png)
+![Pantallazo](PNG/imagen7.png)
 ### FALSE
-![Pantallazo](imagen10.png)
+![Pantallazo](PNG/imagen8.png)
 ## Autoevaluación
 1. ¿Qué es HTTP? 
     <br>
