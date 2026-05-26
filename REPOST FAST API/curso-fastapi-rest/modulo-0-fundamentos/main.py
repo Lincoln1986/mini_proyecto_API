@@ -17,6 +17,27 @@ students = [
         "email": "andres.martinez@email.com",
         "program": "Producción Multimedia",
         "active": False
+    },
+    {
+        "id": 3,
+        "name": "Sofía Rodríguez",
+        "email": "sofia.rodriguez@email.com",
+        "program": "Diseño Gráfico",
+        "active": True
+    },
+    {
+        "id": 4,
+        "name": "Anderson Chala",
+        "email": "andersiton.chalita@gmail.com",
+        "program": "Excel",
+        "active": True
+    },
+    {
+        "id": 5,
+        "name": "Camila Torres",
+        "email": "camila.torres@email.com",
+        "program": "Marketing Digital",
+        "active": False
     }
 ]
 
