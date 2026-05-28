@@ -30,3 +30,15 @@
     <br>Se podría decir que es el **servidor** por excelencia para Python y es el complemento ideal para FastAPI.
 8. ¿Qué es una path operation?
     <br>Combitación de URL y HTTP que se realiza para generar un **endpoint** dentro de la API.
+___
+# Demostración de lo realizado el día de hoy
+![Pantallazo](PNG/imagen9.png)
+## 1. Obtener estudiante por ID (GET /students/{student_id})
+Esta funcionalidad busca a un alumno específico dentro del listado utilizando su número único de identificación **(id)**.
++ **Operación:** El sistema recorre la base de datos temporal (la lista). Si encuentra el ID solicitado, retorna el objeto completo del estudiante. Si no existe coincidencia tras revisar todo el arreglo, detiene el proceso y arroja un error controlado 404 Not Found especificando que el alumno no fue hallado.
+## 2. Crear nuevo estudiante (POST /students)
+Permite registrar e incorporar un nuevo alumno al sistema enviando la estructura requerida en el cuerpo de la petición.
++ **Operación:** La API recibe los datos validados del estudiante, genera un ID incremental automático (calculando la longitud de la lista actual + 1) y anexa el nuevo registro al listado de datos. Finalmente, responde confirmando el éxito con el código de estado estándar 201 Created junto al objeto recién creado.
+## 3. Listar y filtrar estudiantes (GET /students)
+Permite visualizar la colección de alumnos del sistema, ofreciendo flexibilidad mediante un parámetro opcional de consulta en la URL.
++ **Operación:** Si se consulta de forma directa, retorna la lista completa con todos los estudiantes. En caso de especificar el parámetro lógico ?active=true o ?active=false, la funcionalidad filtra los datos sobre la marcha y retorna únicamente a aquellos estudiantes que cumplan estrictamente con la condición indicada.
