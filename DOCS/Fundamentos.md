@@ -1,18 +1,18 @@
 # Imagenes comprobación de resultados
-![Texto Alternativo](PNG/imagen.png)
-![Texto Alternativo](PNG/imagen2.png)
-![Texto Alternativo](PNG/imagen3.png)
-![Texto Alternativo](PNG/imagen4.png)
+![Texto Alternativo](PNG/Fundamentos1.png)
+![Texto Alternativo](PNG/Fundamentos2.png)
+![Texto Alternativo](PNG/Fundamentos3.png)
+![Texto Alternativo](PNG/Fundamentos4.png)
 # Evidencias solicitadas
 ## 1. Endpoint: GET /students/{id}
-![Pantallazo](PNG/imagen5.png)
+![Pantallazo](PNG/Fundamentos5.png)
 ## 2. Endpoint: POST /students
-![Pantallazo](PNG/imagen6.png)
+![Pantallazo](PNG/Fundamentos6.png)
 ## 3. Endpoint: GET /students?active=true
 ### TRUE
-![Pantallazo](PNG/imagen7.png)
+![Pantallazo](PNG/Fundamentos7.png)
 ### FALSE
-![Pantallazo](PNG/imagen8.png)
+![Pantallazo](PNG/Fundamentos8.png)
 ## Autoevaluación
 1. ¿Qué es HTTP?
     <br>Es el grupo de **reglas** que le dictan a tu navegador web y a los servidores que son requeridos el como relacionarse entre ellos.
@@ -32,7 +32,7 @@
     <br>Combitación de URL y HTTP que se realiza para generar un **endpoint** dentro de la API.
 ___
 # Demostración de lo realizado el día de hoy
-![Pantallazo](PNG/imagen9.png)
+![Pantallazo](PNG/Fundamentos9.png)
 ## 1. Obtener estudiante por ID (GET /students/{student_id})
 Esta funcionalidad busca a un alumno específico dentro del listado utilizando su número único de identificación **(id)**.
 + **Operación:** El sistema recorre la base de datos temporal (la lista). Si encuentra el ID solicitado, retorna el objeto completo del estudiante. Si no existe coincidencia tras revisar todo el arreglo, detiene el proceso y arroja un error controlado 404 Not Found especificando que el alumno no fue hallado.

@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException, Response, status
 from app.shemas import ProductCreate, ProductResponse, ProductUpdate
 
 app = FastAPI(
-    title="API de Produtos", description="API de gestión de productos", version="1.0.0"
+    title="API para productos", description="API de gestión de productos", version="1.0.0"
 )
 
 products : list[dict] = [] # Lista para guardar los datos necesarios para el funcionamiento, cada producto se guardará como un diccionario dentro de la lista.
