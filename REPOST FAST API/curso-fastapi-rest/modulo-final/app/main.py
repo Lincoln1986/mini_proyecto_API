@@ -1,19 +1,19 @@
 from fastapi import FastAPI
-from app.database.connection import Base, engine
-from app.routes import product_routes
 
-# Crea las tablas en SQLite si no existen
+from .database import Base, engine
+from .routers import products
+
+# Crear las tablas en la base de datos
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
-    title="API Inventario v1",
-    description="API para administrar un inventario básico de productos usando FastAPI, SQLAlchemy y SQLite.",
+    title="API Inventario",
     version="1.0.0"
 )
 
-app.include_router(product_routes.router)
+app.include_router(products.router)
 
 
 @app.get("/")
 def root():
-    return {"message": "API Inventario v1 funcionando correctamente"}
+    return {"message": "Bienvenido a la API de Inventario"}
