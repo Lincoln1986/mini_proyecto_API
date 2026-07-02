@@ -35,7 +35,7 @@ Este proyecto fue desarrollado siguiendo una arquitectura por capas, aplicando b
 ## Estructura del proyecto
 
 ```text
-api_inventario/
+modulo-final/
 │
 ├── app/
 │   ├── routers/
@@ -61,29 +61,29 @@ api_inventario/
 ### 1. Clonar el proyecto
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone (https://github.com/Lincoln1986/mini_proyecto_API.git)
 ```
 
 Entrar al proyecto
 
 ```bash
-cd api_inventario
+cd mini_proyecto_API/REPOST FAST API/curso-fastapi-rest/modulo-final
 ```
 
 ---
 
 ### 2. Crear el entorno virtual
 
-Windows
+Linux
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 ```
 
 Activar el entorno
 
 ```bash
-.venv\Scripts\activate
+Source .venv\Scripts\activate
 ```
 
 ---
@@ -139,22 +139,6 @@ inventario.db
 ```
 
 Dentro de este archivo se almacena la información de todos los productos.
-
-
----
-# Capturas de Pantalla 
-
-![Swagger](app/media/image.png)
-
-![Swagger](/app/media/image1.png)
-
-![Swagger](/app/media/image2.png)
-
-![Swagger](/app/media/image3.png)
-
----
-
-
 ## Conclusión
 
 Este proyecto permitió aplicar los conceptos fundamentales del desarrollo de APIs REST utilizando FastAPI y SQLAlchemy. Además, se comprendió el funcionamiento de una arquitectura por capas, el uso de un ORM para interactuar con bases de datos y la importancia de validar la información antes de almacenarla. Gracias a Swagger fue posible probar cada uno de los servicios desarrollados de manera rápida y sencilla.
@@ -163,9 +147,9 @@ Este proyecto permitió aplicar los conceptos fundamentales del desarrollo de AP
 
 ## Autor
 
-**Nombre:** Nicol Neira
+**Nombre:** Allan Koll Benavides López
 
-**Proyecto:** API Inventario v1
+**Proyecto:** Mini proyecto API
 
 **Tecnologías:** FastAPI · SQLAlchemy · SQLite · Pydantic
 
